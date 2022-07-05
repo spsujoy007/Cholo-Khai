@@ -7,7 +7,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffeae6;
+    background-color: #FDD7C6;
 }
 
 h1 {
@@ -38,10 +38,11 @@ p {
     color: var(--bg-orange);
 }
 
-section {
+.element {
     display: flex;
     width: 90%;
     padding-left: 7%;
+    padding-bottom: 150px;
 }
 
 .buttonstyle {
@@ -54,4 +55,20 @@ section {
     float: left;
     font-size: 20px;
     box-shadow: 1px 1px 30px #FB944A;
+}
+
+.secondsec {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+
+.secondsec h1 {
+    color: rgb(66, 66, 66);
+    font-weight: bold;
+    padding-top: 15%;
+}
+
+.secondsec img {
+    width: 80%;
+
 }
