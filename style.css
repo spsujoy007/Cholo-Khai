@@ -1,7 +1,13 @@
+:root {
+    --bg-orange: #FE4E30;
+    --bg-loworange: #FB944A;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #ffeae6;
 }
 
 h1 {
@@ -9,13 +15,43 @@ h1 {
 }
 
 p {
-    color: rgb(54, 54, 54);
+    color: rgb(73, 73, 73);
+    font-weight: bolder;
+    width: 80%;
 }
 
 .contentsec {
     width: 50%;
 }
 
-.imagesection {
-    width: 100%;
+.imagesection img {
+    width: 90%;
+    padding-top: 7%;
+}
+
+.leftsection {
+    padding-top: 13%;
+}
+
+
+.leftsection .skipname {
+    color: var(--bg-orange);
+}
+
+section {
+    display: flex;
+    width: 90%;
+    padding-left: 7%;
+}
+
+.buttonstyle {
+    color: whitesmoke;
+    background-image: linear-gradient(0deg, #FE4E30, #FB944A);
+    padding: 18px 50px 18px;
+    text-decoration: none;
+    border-radius: 60px;
+    margin-top: 3%;
+    float: left;
+    font-size: 20px;
+    box-shadow: 1px 1px 30px #FB944A;
 }
