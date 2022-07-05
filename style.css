@@ -72,3 +72,10 @@ p {
     width: 80%;
 
 }
+
+
+.recipeSection {
+    text-align: center;
+    padding-right: 40px;
+    background-color: whitesmoke;
+}
